@@ -231,7 +231,6 @@ body {
     width: 100%;
     height: 100vh;
     margin: 0;
-    
 }
 
 .resume {
@@ -243,8 +242,73 @@ body {
 
 /* Responsive styles for smaller screens */
 @media (max-width: 768px) {
-  .info-container {
-    position: relative;
-    margin-right: 0; /* Remove the right margin to avoid overlap */
+  .header {
+    padding: 15px 5%; /* Adjust padding for smaller screens */
+  }
+
+  .logo {
+    font-size: 20px; /* Decrease font size for smaller screens */
+  }
+
+  .navbar a {
+    font-size: 16px; /* Decrease font size for smaller screens */
+    margin-left: 20px; /* Adjust margin for smaller screens */
+  }
+
+  .home {
+    padding: 80px 5%; /* Adjust padding for smaller screens */
+  }
+
+  .home-content h2 {
+    font-size: 40px; /* Decrease font size for smaller screens */
+  }
+
+  .home-content h3 {
+    font-size: 28px; /* Decrease font size for smaller screens */
+  }
+
+  .home-content p {
+    font-size: 16px; /* Decrease font size for smaller screens */
+  }
+
+  .home-content .btn-box {
+    width: 280px; /* Adjust width for smaller screens */
+  }
+
+  .btn-box a {
+    font-size: 16px; /* Decrease font size for smaller screens */
+    width: 120px; /* Adjust width for smaller screens */
+  }
+
+  .home-sci {
+    bottom: 20px; /* Adjust bottom spacing for smaller screens */
+  }
+
+  .home-sci a {
+    width: 35px; /* Adjust width for smaller screens */
+    height: 35px; /* Adjust height for smaller screens */
+    font-size: 18px; /* Adjust font size for smaller screens */
+  }
+
+  .content {
+    flex-direction: column; /* Change flex direction for smaller screens */
+  }
+
+  .resume-image {
+    width: 100%; /* Adjust width for smaller screens */
+    height: auto; /* Ensure aspect ratio is maintained */
+  }
+
+  .home-image {
+    width: 100%; /* Adjust width for smaller screens */
+    height: auto; /* Ensure aspect ratio is maintained */
+  }
+
+  .resume {
+    padding: 60px 5%; /* Adjust padding for smaller screens */
+  }
+
+  .resume-container {
+    height: auto; /* Allow content to expand in height for smaller screens */
   }
 }
