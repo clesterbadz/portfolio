@@ -240,3 +240,11 @@ body {
     align-items: center;
     padding: 0 10%;
 }
+
+/* Responsive styles for smaller screens */
+@media (max-width: 768px) {
+  .info-container {
+    position: relative;
+    margin-right: 0; /* Remove the right margin to avoid overlap */
+  }
+}
