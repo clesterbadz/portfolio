@@ -90,10 +90,6 @@ body {
     background: #00abf0;
     border: 2px solid #00abf0;
     border-radius: 8px;
-    -webkit-border-radius: 8px;
-    -moz-border-radius: 8px;
-    -ms-border-radius: 8px;
-    -o-border-radius: 8px;
     font-size: 19px;
     color: #081b29;
     text-decoration: none;
@@ -102,10 +98,6 @@ body {
     z-index: 1;
     overflow: hidden;
     transition: .5s;
-    -webkit-transition: .5s;
-    -moz-transition: .5s;
-    -ms-transition: .5s;
-    -o-transition: .5s;
 }
 
 .btn-box a:hover {
@@ -121,10 +113,6 @@ body {
     color: #081b29;
 }
 
-.btn-box a:nth-child(2)::before {
-    background: #00abf0;
-}
-
 .btn-box a::before {
     content: '';
     position: absolute;
@@ -135,10 +123,6 @@ body {
     background: #081b29;
     z-index: -1;
     transition: .5s;
-    -webkit-transition: .5s;
-    -moz-transition: .5s;
-    -ms-transition: .5s;
-    -o-transition: .5s;
 }
 
 .btn-box a:hover::before {
@@ -163,20 +147,12 @@ body {
     background: transparent;
     border: 2px solid #00abf0;
     border-radius: 50%;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
     font-size: 20px;
     color: #00abf0;
     text-decoration: none;
     z-index: 1;
     overflow: hidden;
     transition: .5s;
-    -webkit-transition: .5s;
-    -moz-transition: .5s;
-    -ms-transition: .5s;
-    -o-transition: .5s;
 }
 
 .home-sci a:hover {
@@ -193,10 +169,6 @@ body {
     background: #00abf0;
     z-index: -1;
     transition: .5s;
-    -webkit-transition: .5s;
-    -moz-transition: .5s;
-    -ms-transition: .5s;
-    -o-transition: .5s;
 }
 
 .home-sci a:hover::before {
@@ -217,10 +189,6 @@ body {
     width: 60%;
     height: auto;
     border-radius: 50%;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
     border: 1px solid #00abf0;
 }
 
@@ -243,72 +211,72 @@ body {
 /* Responsive styles for smaller screens */
 @media (max-width: 768px) {
   .header {
-    padding: 15px 5%; /* Adjust padding for smaller screens */
+    padding: 15px 5%;
   }
 
   .logo {
-    font-size: 20px; /* Decrease font size for smaller screens */
+    font-size: 20px;
   }
 
   .navbar a {
-    font-size: 16px; /* Decrease font size for smaller screens */
-    margin-left: 20px; /* Adjust margin for smaller screens */
+    font-size: 16px;
+    margin-left: 20px;
   }
 
   .home {
-    padding: 80px 5%; /* Adjust padding for smaller screens */
+    padding: 80px 5%;
   }
 
   .home-content h2 {
-    font-size: 40px; /* Decrease font size for smaller screens */
+    font-size: 40px;
   }
 
   .home-content h3 {
-    font-size: 28px; /* Decrease font size for smaller screens */
+    font-size: 28px;
   }
 
   .home-content p {
-    font-size: 16px; /* Decrease font size for smaller screens */
+    font-size: 16px;
   }
 
   .home-content .btn-box {
-    width: 280px; /* Adjust width for smaller screens */
+    width: 280px;
   }
 
   .btn-box a {
-    font-size: 16px; /* Decrease font size for smaller screens */
-    width: 120px; /* Adjust width for smaller screens */
+    font-size: 16px;
+    width: 120px;
   }
 
   .home-sci {
-    bottom: 20px; /* Adjust bottom spacing for smaller screens */
+    bottom: 20px;
   }
 
   .home-sci a {
-    width: 35px; /* Adjust width for smaller screens */
-    height: 35px; /* Adjust height for smaller screens */
-    font-size: 18px; /* Adjust font size for smaller screens */
+    width: 35px;
+    height: 35px;
+    font-size: 18px;
   }
 
   .content {
-    flex-direction: column; /* Change flex direction for smaller screens */
+    flex-direction: column;
   }
 
   .resume-image {
-    width: 100%; /* Adjust width for smaller screens */
-    height: auto; /* Ensure aspect ratio is maintained */
+    width: 100%;
+    height: auto;
   }
 
   .home-image {
-    width: 100%; /* Adjust width for smaller screens */
-    height: auto; /* Ensure aspect ratio is maintained */
+    width: 100%;
+    height: auto;
   }
 
   .resume {
-    padding: 60px 5%; /* Adjust padding for smaller screens */
+    padding: 60px 5%;
   }
 
   .resume-container {
-    height: auto; /* Allow content to expand in height for smaller screens */
+    height: auto;
   }
 }
